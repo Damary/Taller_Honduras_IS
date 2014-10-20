@@ -9,7 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Hola Muuuundooooo</div>
+        Nombre:
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        <br />
+        Apellidos:
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></div>
     </form>
 </body>
 </html>
